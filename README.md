@@ -16,15 +16,15 @@ From the repository homepage (which will be http://github.com/YOURUSERNAME/fewd9
 
 There are three events that need to be defined: 
 
-1. When the user clicks on a nav anchor:
+When the user clicks on a nav anchor:
 
 - The item the user clicked on should be selected (the class `.current` can be applied).
 
-2. When the user hits the Generate button:
+When the user hits the Generate button:
 
 - The specified number of paragraphs of the selected ipsum should be revealed with a sliding animation.
 
-3. When the user clicks or tabs into the form field: 
+When the user clicks or tabs into the form field: 
 
 - The field should clear and the revealed ipsum should disappear with a sliding animation.
 
