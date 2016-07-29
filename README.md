@@ -1,4 +1,4 @@
-# Homework 5 - Pick Your Ipsum
+# Homework 6 - Pick Your Ipsum
 
 Create an app that will allow you to pick a different type of Ipsum and select a certain number of paragraphs of it.
 
@@ -14,7 +14,19 @@ From the repository homepage (which will be http://github.com/YOURUSERNAME/fewd9
 
 ### Step 3 - Build!
 
-There are three events that need to be defined: when the user clicks on a nav anchor, when the user hits the Generate button, and when the user clicks or tabs into the form field. 
+There are three events that need to be defined: 
+
+1. When the user clicks on a nav anchor:
+
+- The item the user clicked on should be selected (the class `.current` can be applied).
+
+2. When the user hits the Generate button:
+
+- The specified number of paragraphs of the selected ipsum should be revealed with a sliding animation.
+
+3. When the user clicks or tabs into the form field: 
+
+- The field should clear and the revealed ipsum should disappear with a sliding animation.
 
 You will likely need to use all of the following jQuery functions: `.click(), .focus(), .removeClass(), .addClass(), .data(), .slice(), .find(), .hide(), .slideDown(), .slideUp()`. Check the jQuery documentation for what each of these do: https://api.jquery.com/
 
